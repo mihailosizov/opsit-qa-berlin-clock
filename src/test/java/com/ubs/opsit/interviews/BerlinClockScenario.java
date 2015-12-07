@@ -32,7 +32,7 @@ public class BerlinClockScenario {
 
     @When("I convert time with berlin-clock converter")
     public void convertTime() {
-        TimeConverter timeConverter = new TimeConverter();
+        TimeConverter timeConverter = new BerlinClock();
         result = timeConverter.convertTime(timeValue);
     }
 

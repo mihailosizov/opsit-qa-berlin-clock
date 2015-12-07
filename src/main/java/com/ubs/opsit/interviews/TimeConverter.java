@@ -1,9 +1,8 @@
 package com.ubs.opsit.interviews;
 
-public class TimeConverter {
+@FunctionalInterface
+public interface TimeConverter {
 
-    public String convertTime(String aTime) {
-        return aTime;
-    }
+    String convertTime(String aTime);
 
 }
